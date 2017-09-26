@@ -1731,3 +1731,300 @@ button[type=submit],
     transform: translateX(-50%);
     width: auto;
 }
+
+/*
+Custom CSS begins here
+*/
+
+/*
+Header and homepage alterations
+*/
+
+.home a.btn.btn-default.btn-sm {
+    margin-top: 5px;
+}
+
+.navbar > .container .navbar-brand {
+    color: #DADADA;
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+}
+
+.site-main [class*="navigation"] a:hover, .more-link, .pagination>li>a, .pagination>li>span, .cfa-button {
+    color: #ffffff;
+}
+
+/*
+Image treatments
+*/
+
+img.attachment-large.size-large.wp-post-image {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+img.wp-image-492 {
+	display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+img.single-featured.wp-post-image {
+    height: auto;
+    max-width: 100%;
+    border: 1px solid #dadada;
+}
+
+.page-template-page-fullwidth img.attachment-large.size-large.wp-post-image:hover {
+	opacity: .8;
+}
+
+#post-49 img.attachment-large.size-large.wp-post-image:hover {
+	opacity: .8;
+}
+
+.home .page-template-page-fullwidth img.attachment-large.size-large.wp-post-image:hover {
+	opacity: .8;
+}
+
+/*
+Portfolio Page rules
+*/
+
+#post-49 .portfolio-entry-content {
+    display: none;
+}
+
+.portfolio-entry-title {
+    margin-top: .333em;
+}
+
+.entry-meta {
+    display: none;
+}
+
+.single-featured:hover {
+    opacity: 1;
+}
+
+/*
+Misc
+*/
+
+.page-id-45 div.well.well-sm {
+	text-align: center;
+}
+
+div.art {
+		float: none;
+		margin: auto;
+    width: 992px;
+}
+
+hr.spacer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    border-top: 1px solid #6B6B6B;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0px;
+    font-size: 14px;
+    border-left: 5px solid #eee;
+}
+
+.inner-post-content .well {
+    margin-top: 24px;
+}
+
+#post-47 h2 {
+    margin-top: 38px;
+}
+
+a.btn.btn-default.btn-sm {
+	margin-top: 11px;
+}
+
+/*
+Employer Page Stats
+*/
+
+div.emp_stats {
+	font-size: 16px;
+	color: #363636;
+	padding: 16px;
+}
+
+/*
+Sidebar Changes
+*/
+
+aside#search-2.widget.widget_search {
+    margin-bottom: 20px;
+    color: #C1C0C0;
+    overflow: hidden;
+}
+
+#custom_html-3 a:hover {
+    color: #444;
+}
+
+#secondary .widget > h3 {
+    display: none;
+}
+
+aside#custom_html-4.widget_text.widget.widget_custom_html {
+    margin-bottom: 13px;
+    color: #C1C0C0;
+    overflow: hidden;
+}
+
+#secondary .portfolio-entry-meta {
+    margin-top: 0.75em;
+    display: none;
+}
+
+aside#custom_html-5.widget_text.widget.widget_custom_html {
+    margin-bottom: 0px;
+    color: #444;
+    overflow: hidden;
+}
+
+#secondary .widget {
+    margin-bottom: 14px;
+    color: #444;
+    overflow: hidden;
+}
+
+#secondary .soc {
+    font-size: 16px;
+}
+
+#secondary .widget div.soc a:hover {
+    color: #444;
+}
+
+i.icon_col {
+	color: #444;
+}
+
+div.soc {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+#secondary div.well.well-sm {
+	padding: 14px;
+	margin-bottom: 0px;
+
+}
+
+#custom_html-3 img.attachment-large.size-large.wp-post-image {
+	display: none;
+}	
+
+#secondary h2.portfolio-entry-title {
+    font-weight: 400;
+    margin: 0;
+    font-size: 16px;
+    padding: 1px;
+}
+
+#secondary .widget a {
+    color: #444;
+}
+
+#secondary .portfolio-entry {
+    float: left;
+    margin: 0 0 .333em;
+    padding: 0;
+    width: 100%;
+}
+
+#secondary h3.projects {
+    margin-top: 20px;
+    margin-bottom: 20px;
+		color: #444;
+}
+
+#secondary .widget a {
+    color: #1e73be;
+}
+
+/*
+Changes to footer
+*/
+
+#colophon {
+    background-color: #363636;
+    padding: 10px 0;
+    border-top: 1px solid #363636;
+}
+
+/*
+Changes to Contact form
+*/
+
+div#contact-form-51 {
+	padding-top: 24px;
+}
+
+/*
+Rules for responsiveness
+*/
+
+@media (min-width: 992px) { 
+
+.jetpack-portfolio a.btn.btn-default.btn-sm {
+    margin-top: 0px;
+    float: right;
+	}
+
+}
+
+@media (min-width: 992px) { 
+
+img.wp-image-492 {
+    clear: both;
+    display: block;
+	}
+}
+
+@media (min-width: 992px) { 
+
+img.wp-image-802 {
+    clear: both;
+    display: block;
+	}
+}
+
+@media (min-width: 992px) { 
+
+img.wp-image-77 {
+    clear: both;
+    display: block;
+	}
+}
